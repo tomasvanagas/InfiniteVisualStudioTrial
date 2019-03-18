@@ -1,6 +1,6 @@
 # Infinite Visual Studio Trial
 
-This small application is intended to expand Visual Studio Community trial time by month each time computer starts.\
+This small application is intended to expand Visual Studio Community trial time by month each time computer starts.
 
 ## How does it work?
 
@@ -10,7 +10,7 @@ It created Task Scheduler task to trigger application each time computer starts.
 Using beatcracker's "VSCELicense" powershell tool expanding trial period for one month.
 
 No GUI, just RUN IT and forget it.\
-This tool is built for silent deployment in computers.\
+This tool is built for silent deployment in computers.
 
 
 ## Credits
