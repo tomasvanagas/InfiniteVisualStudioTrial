@@ -24,7 +24,7 @@ This tool is built for silent deployment in computers.
 You can download a compiled version:\
 [InfiniteVSTrial.exe v1.0](https://github.com/tomasvanagas/InfiniteVisualStudioTrial/releases/download/1.0/InfiniteVSTrial.exe)
 
-Or download source code and compile it yourself :)\
+Or download source code and compile it yourself :)
 
 Built only for Visual Studio 2017.
 Tested on Windows 7, Windows 10.
