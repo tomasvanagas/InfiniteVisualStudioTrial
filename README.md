@@ -6,11 +6,10 @@ This small application is intended to expand Visual Studio Community trial time 
 
 Writen in C#.\
 Application copies itself into C:\Windows\Infinite Visual Studio.\
-It created Task Scheduler task to trigger application each time computer starts.\
+Creating Task Scheduler task to trigger application each time computer starts.\
 Using beatcracker's "VSCELicense" powershell tool expanding trial period for one month.
 
-No GUI, just RUN IT and forget it.\
-This tool is built for silent deployment in computers.
+No GUI, just RUN IT and forget it.
 
 
 ## Credits
