@@ -11,7 +11,7 @@ Application copies itself into C:\Windows\Infinite Visual Studio.
 It created Task Scheduler task to trigger application each time computer starts.
 Using beatcracker's "VSCELicense" powershell tool expanding trial period for one month.
 
-No GUI, just RUN IT and thats it.
+No GUI, just RUN IT and forget it.
 This tool is built for silent deployment in computers.
 
 
