@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfiniteVSTrial", "InfiniteVSTrial\InfiniteVSTrial.csproj", "{D991D96A-1E0E-43E3-8C70-721746A4222D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D991D96A-1E0E-43E3-8C70-721746A4222D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D991D96A-1E0E-43E3-8C70-721746A4222D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D991D96A-1E0E-43E3-8C70-721746A4222D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D991D96A-1E0E-43E3-8C70-721746A4222D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E93DDC48-D76C-4C30-A8B7-CAF4B5747E44}
+	EndGlobalSection
+EndGlobal
