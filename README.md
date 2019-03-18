@@ -1,4 +1,4 @@
-# Infinite Visual Studio Trial
+# Infinite Visual Studio Community Trial
 
 This small application is intended to expand Visual Studio Community trial time by month each time computer starts.
 
