@@ -43,7 +43,8 @@ namespace InfiniteVSTrial
             // Import powershell cmdlet
             string res = RunScript(@"Set-ExecutionPolicy Bypass -Force; 
                                     Import-Module -Name 'C:\Windows\Infinite Visual Studio\VSCELicense\VSCELicense.psd1';
-                                    Set-VSCELicenseExpirationDate -Version VS2017");
+                                    Set-VSCELicenseExpirationDate -Version VS2017;
+                                    Set-VSCELicenseExpirationDate -Version VS2019;");
             Console.WriteLine(res);
 
 
