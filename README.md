@@ -21,10 +21,9 @@ No GUI, just RUN IT and forget it.
 ## Release
 
 You can download a compiled version:\
-[InfiniteVSTrial.exe v1.0](https://github.com/tomasvanagas/InfiniteVisualStudioTrial/releases/download/1.0/InfiniteVSTrial.exe)
+[InfiniteVSTrial.exe v1.1](https://github.com/tomasvanagas/InfiniteVisualStudioTrial/releases/download/1.1/InfiniteVSTrial.exe)
 
 Or download source code and compile it yourself :)
 
-Built only for Visual Studio 2017.
-Tested on Windows 7, Windows 10.
-
+Visual Studio 2017 tested on Windows 7, Windows 10.
+Visual Studio 2019 tested on Windows 10.
