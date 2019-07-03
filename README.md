@@ -25,5 +25,5 @@ You can download a compiled version:\
 
 Or download source code and compile it yourself :)
 
-Visual Studio 2017 tested on Windows 7, Windows 10.
+Visual Studio 2017 tested on Windows 7, Windows 10.\
 Visual Studio 2019 tested on Windows 10.
