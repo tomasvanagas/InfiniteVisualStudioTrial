@@ -15,7 +15,7 @@ namespace InfiniteVSTrial
         static string dirPath = @"C:\Windows\Infinite Visual Studio";
         static string exePath = dirPath + @"\InfiniteVSTrial.exe";
 
-        static void Main(string[] args)
+        static int Main(string[] args)
         {
             // Create main dir
             if (!Directory.Exists(dirPath))
@@ -41,13 +41,33 @@ namespace InfiniteVSTrial
             File.WriteAllBytes(dirPath + @"\VSCELicense\VSCELicense.psm1", Resources.VSCELicense1);
 
             // Import powershell cmdlet
-            string res = RunScript(@"Set-ExecutionPolicy Bypass -Force; 
+            Console.WriteLine("[*] Starting to run powershell script.");
+            try
+            {
+                string res = RunScript(@"Set-ExecutionPolicy Bypass -Force; 
                                     Import-Module -Name 'C:\Windows\Infinite Visual Studio\VSCELicense\VSCELicense.psd1';
-                                    Set-VSCELicenseExpirationDate -Version VS2017;
+                                    Set-VSCELicenseExpirationDate -Version VS2017;");
+                Console.WriteLine(res);
+            }
+            catch
+            {
+                try
+                {
+                    string res = RunScript(@"Set-ExecutionPolicy Bypass -Force; 
+                                    Import-Module -Name 'C:\Windows\Infinite Visual Studio\VSCELicense\VSCELicense.psd1';
                                     Set-VSCELicenseExpirationDate -Version VS2019;");
-            Console.WriteLine(res);
+                    Console.WriteLine(res);
+                }
+                catch
+                {
+                    Console.WriteLine("[*] Could not reset trial licence!");
+                    return 1;
+                }
+            }
 
-
+            
+            Console.WriteLine("[*] Finished running powershell script.");
+            return 0;
         }
 
         static void InjectSheduledTask()
